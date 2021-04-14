@@ -2,7 +2,7 @@ apiVersion: v2
 name: nginx-ingress
 description: A Helm chart for NGINX Ingress Controller
 type: application
-version: 0.1.0
+version: 1.11.1
 appVersion: "1.11.1"
 home: https://github.com/platform9/helm-charts
 sources:
