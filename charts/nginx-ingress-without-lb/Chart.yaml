@@ -1,5 +1,5 @@
 apiVersion: v2
-name: ingress-nginx (Baremetal Without External Load Balancer)
+name: ingress-nginx-baremetal-no-external-lb
 version: 3.30.0
 appVersion: 0.46.0
 home: https://github.com/platform9/helm-charts
