@@ -1,9 +1,9 @@
 apiVersion: v2
-name: ingress-nginx-baremetal-no-external-lb
+name: ingress-nginx-bm-no-lb
 version: 3.30.0
 appVersion: 0.46.0
 home: https://github.com/platform9/helm-charts
-description: Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer
+description: Ingress controller for Kubernetes using NGINX as a reverse proxy.
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
 keywords:
   - ingress
