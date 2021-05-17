@@ -1,0 +1,40 @@
+apiVersion: v1
+entries:
+  ingress-nginx-bm-no-lb:
+  - apiVersion: v2
+    appVersion: 0.46.0
+    created: "2021-05-17T07:03:19.196967682Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy.
+    digest: da5754b5b2a072e0e22f760284dab46dd0a35bd503f6bad5e1d8a8e2679f64ab
+    home: https://github.com/platform9/helm-charts
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    name: ingress-nginx-bm-no-lb
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-bm-no-lb-3.30.0/ingress-nginx-bm-no-lb-3.30.0.tgz
+    version: 3.30.0
+  ingress-nginx-bm-with-lb:
+  - apiVersion: v2
+    appVersion: 0.46.0
+    created: "2021-05-17T07:03:19.314991865Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy(External
+      load balancer present)
+    digest: 6b8cf5b138ecb7eb527c0babc0ac5358f07a3680f3993fb2c70afa2d7bba4a83
+    home: https://github.com/platform9/helm-charts
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    name: ingress-nginx-bm-with-lb
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-bm-with-lb-3.30.0/ingress-nginx-bm-with-lb-3.30.0.tgz
+    version: 3.30.0
+generated: "2021-05-17T07:03:18.741183777Z"
