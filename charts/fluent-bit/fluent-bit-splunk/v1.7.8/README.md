@@ -18,7 +18,7 @@ helm install fluent-bit pf9/fluent-bit
 
 ## Output - Splunk 
 
-```sh
+
 To send the logs to Splunk cloud, do the following changes in values.yaml
 
   [OUTPUT]
@@ -30,6 +30,5 @@ To send the logs to Splunk cloud, do the following changes in values.yaml
     tls On
     tls.verify Off
 
-```
 
  
