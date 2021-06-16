@@ -30,7 +30,7 @@ To send the logs to Splunk cloud, do the following changes in values.yaml
     ``` [HTTP Event Collector](https://docs.splunk.com/Documentation/SplunkCloud/8.0.2006/Data/UsetheHTTPEventCollector?ref=hk)  interface)
     tls On
     tls.verify Off
-    ```
+    
 
 
  
