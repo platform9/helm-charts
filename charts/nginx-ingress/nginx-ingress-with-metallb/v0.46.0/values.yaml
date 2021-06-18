@@ -362,6 +362,9 @@ controller:
     enabled: true
 
     annotations: {}
+     #For EKS k8s 1.19+ versions. The subnets does not get tagged with the cluster-name, loadbalancer will not be able to find a suitalbe
+     #subnet. You must use the annotation below providing the name of each subnet used with the EKS cluster.
+     #service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-name1, subnet-name2, subnet-name3
     labels: {}
     # clusterIP: ""
 
