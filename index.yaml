@@ -15,41 +15,41 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/fluent-bit-0.15.14/fluent-bit-0.15.14.tgz
     version: 0.15.14
-  ingress-nginx-bm-no-lb:  
+  ingress-nginx-no-lb:
   - apiVersion: v2
     appVersion: 0.46.0
-    created: "2021-05-17T07:03:19.196967682Z"
+    created: "2021-06-22T10:59:51.721362941+02:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy.
-    digest: da5754b5b2a072e0e22f760284dab46dd0a35bd503f6bad5e1d8a8e2679f64ab
+    digest: 5de5fe44ed11a6056a9ce95858abeaa61b8da14d96f3bc55694ae6685976174a
     home: https://github.com/platform9/helm-charts
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - ingress
     - nginx
     kubeVersion: '>=1.16.0-0'
-    name: ingress-nginx-bm-no-lb
+    name: ingress-nginx-no-lb
     sources:
     - https://github.com/platform9/helm-charts
     urls:
-    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-bm-no-lb-3.30.0/ingress-nginx-bm-no-lb-3.30.0.tgz
+    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-no-lb-3.30.0/ingress-nginx-no-lb-3.30.0.tgz
     version: 3.30.0
-  ingress-nginx-bm-with-lb:
+  ingress-nginx-with-lb:
   - apiVersion: v2
     appVersion: 0.46.0
-    created: "2021-05-17T07:03:19.314991865Z"
+    created: "2021-06-22T10:59:51.895690492+02:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy(External
       load balancer present)
-    digest: 6b8cf5b138ecb7eb527c0babc0ac5358f07a3680f3993fb2c70afa2d7bba4a83
+    digest: c354cec7326356993a521a9635b0bcc48edc3192dae289ad593e5200bfb4f24a
     home: https://github.com/platform9/helm-charts
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - ingress
     - nginx
     kubeVersion: '>=1.16.0-0'
-    name: ingress-nginx-bm-with-lb
+    name: ingress-nginx-with-lb
     sources:
     - https://github.com/platform9/helm-charts
     urls:
-    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-bm-with-lb-3.30.0/ingress-nginx-bm-with-lb-3.30.0.tgz
+    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-with-lb-3.30.0/ingress-nginx-with-lb-3.30.0.tgz
     version: 3.30.0
-generated: "2021-06-17T12:36:38.550119+05:30"
+generated: "2021-06-22T10:59:51.895696504+02:00"
