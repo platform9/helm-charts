@@ -19,7 +19,7 @@ helm install fluent-bit pf9/fluent-bit
 ## Output - Splunk 
 
 
-To send the logs to Splunk cloud, do the following changes in values.yaml
+To send the logs to Splunk cloud, do the following changes in values.yaml, update with Host, Splunk_Token of your [Splunk cloud](https://docs.fluentbit.io/manual/pipeline/outputs/splunk).
 ```sh
   [OUTPUT]
     Name splunk
