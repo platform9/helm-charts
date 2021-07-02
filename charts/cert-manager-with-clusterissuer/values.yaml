@@ -4,5 +4,5 @@ issuer:
     email: "ali.bazlamit@hotmail.com"
 
 cert:
-  commonname: ""
-  dnsnames: []
+  commonname: "certmanagerno.platform9.systems"
+  dnsnames: ["certmanagerno.platform9.systems"]
