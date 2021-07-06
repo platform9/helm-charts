@@ -1,8 +1,4 @@
 issuer:
   acme:
-    server: https://acme-v02.api.letsencrypt.org/directory # use staging for testing purposes
-    email: "ali.bazlamit@hotmail.com"
-
-cert:
-  commonname: "certmanagerno.platform9.systems"
-  dnsnames: ["certmanagerno.platform9.systems"]
+    server: https://acme-v02.api.letsencrypt.org/directory # use staging for testing purposes https://acme-staging-v02.api.letsencrypt.org/directory
+    email: "your-email-id-here"
