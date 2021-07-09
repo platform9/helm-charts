@@ -15,6 +15,7 @@ spec:
     command: ['sh', '-c', 'echo post-install hook Pod is running - hook-postinstall && sleep 120']
   restartPolicy: Never
   terminationGracePeriodSeconds: 0
+  # JIRA TICKET https://platform9.atlassian.net/browse/FT-178
   # initContainers:
   #   - name: init-myservice
   #     image: busybox:latest
