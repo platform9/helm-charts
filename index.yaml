@@ -1,19 +1,57 @@
 apiVersion: v1
 entries:
-  fluent-bit:
+  cert-manager-resources:
+  - apiVersion: v1
+    appVersion: 0.11.0
+    created: "2021-07-12T15:11:14.694098151+02:00"
+    description: A Helm chart to provision certificates using cert-manager
+    digest: e5e9ee20f520c1469911b0990b9b7002a980e9355cebf04ffe74189462f4ae72
+    name: cert-manager-resources
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/cert-manager-resources-0.1.0/cert-manager-resources-0.1.0.tgz
+    version: 0.1.0
+  fluent-bit-elasticsearch:
   - apiVersion: v1
     appVersion: 1.7.8
-    created: "2021-06-17T12:36:38.550103+05:30"
+    created: "2021-06-30T18:13:33.664075+05:30"
     description: A Helm chart for Fluent-Bit. A Fast and lightweight log processor
-      and forwarder or Linux, OSX and BSD family operating systems.
-    digest: c43ea58e872325aa5d530b9d9ce5b28a627983fe8156e07f78129b6b6ab8c5c1
+      and forwarder or Linux, OSX and BSD family operating systems. It supports platform9
+      cluster types BareOS, AWS, Azure, EKS. To send logs to elastic cloud's Elasticsearch
+      do update values.yaml during deploy with cloud_id and cloud_auth of your [elastic
+      cloud](https://docs.fluentbit.io/manual/pipeline/outputs/elasticsearch).
+    digest: 853d6a47caaf1a219682b3219cadc47afe4a85bea2e2f71cd3bcb4dfc4c8b7a5
     home: https://github.com/platform9/helm-charts
     icon: https://fluentbit.io/assets/img/logo1-default.png
-    name: fluent-bit
+    keywords:
+    - fluent-bit
+    - elasticsearch
+    name: fluent-bit-elasticsearch
     sources:
     - https://github.com/platform9/helm-charts
     urls:
-    - https://github.com/platform9/helm-charts/releases/download/fluent-bit-0.15.14/fluent-bit-0.15.14.tgz
+    - https://github.com/platform9/helm-charts/releases/download/fluent-bit-elasticsearch-0.15.14/fluent-bit-elasticsearch-0.15.14.tgz
+    version: 0.15.14
+  fluent-bit-splunk:
+  - apiVersion: v1
+    appVersion: 1.7.8
+    created: "2021-06-30T18:13:34.093808+05:30"
+    description: A Helm chart for Fluent-Bit. A Fast and lightweight log processor
+      and forwarder or Linux, OSX and BSD family operating systems. It supports platform9
+      cluster types of BareOS, AWS, Azure, EKS. To send logs to splunk do update values.yaml
+      during deploy with [Host](https://docs.fluentbit.io/manual/pipeline/outputs/splunk),
+      [Splunk_Token](https://docs.splunk.com/Documentation/SplunkCloud/8.0.2006/Data/UsetheHTTPEventCollector?ref=hk)
+      of your Splunk cloud.
+    digest: 03cac89db41c01b71109785cfbb3917d84cd71886f446517479f40be0d26ff78
+    home: https://github.com/platform9/helm-charts
+    icon: https://fluentbit.io/assets/img/logo1-default.png
+    keywords:
+    - fluent-bit
+    - splunk
+    name: fluent-bit-splunk
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/fluent-bit-splunk-0.15.14/fluent-bit-splunk-0.15.14.tgz
     version: 0.15.14
   ingress-nginx-no-lb:
   - apiVersion: v2
@@ -52,4 +90,4 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-with-lb-3.30.0/ingress-nginx-with-lb-3.30.0.tgz
     version: 3.30.0
-generated: "2021-06-22T10:59:51.895696504+02:00"
+generated: "2021-07-12T15:11:14.694104101+02:00"
