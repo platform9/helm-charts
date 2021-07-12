@@ -1,0 +1,4 @@
+issuer:
+  acme:
+    server: https://acme-v02.api.letsencrypt.org/directory # use staging for testing purposes https://acme-staging-v02.api.letsencrypt.org/directory
+    email: "your-email-id-here"
