@@ -1,0 +1,93 @@
+apiVersion: v1
+entries:
+  cert-manager-resources:
+  - apiVersion: v1
+    appVersion: 0.11.0
+    created: "2021-07-22T11:01:50.827471768Z"
+    description: A Helm chart to provision certificates using cert-manager
+    digest: c72fc5183743cbb4ef08f12a82a04fa05c70daf19bb0884c43f3f93a0581b8b4
+    name: cert-manager-resources
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/cert-manager-resources-0.1.0/cert-manager-resources-0.1.0.tgz
+    version: 0.1.0
+  fluent-bit-elasticsearch:
+  - apiVersion: v1
+    appVersion: 1.7.8
+    created: "2021-06-30T18:13:33.664075+05:30"
+    description: A Helm chart for Fluent-Bit. A Fast and lightweight log processor
+      and forwarder or Linux, OSX and BSD family operating systems. It supports platform9
+      cluster types BareOS, AWS, Azure, EKS. To send logs to elastic cloud's Elasticsearch
+      do update values.yaml during deploy with cloud_id and cloud_auth of your [elastic
+      cloud](https://docs.fluentbit.io/manual/pipeline/outputs/elasticsearch).
+    digest: 853d6a47caaf1a219682b3219cadc47afe4a85bea2e2f71cd3bcb4dfc4c8b7a5
+    home: https://github.com/platform9/helm-charts
+    icon: https://fluentbit.io/assets/img/logo1-default.png
+    keywords:
+    - fluent-bit
+    - elasticsearch
+    name: fluent-bit-elasticsearch
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/fluent-bit-elasticsearch-0.15.14/fluent-bit-elasticsearch-0.15.14.tgz
+    version: 0.15.14
+  fluent-bit-splunk:
+  - apiVersion: v1
+    appVersion: 1.7.8
+    created: "2021-06-30T18:13:34.093808+05:30"
+    description: A Helm chart for Fluent-Bit. A Fast and lightweight log processor
+      and forwarder or Linux, OSX and BSD family operating systems. It supports platform9
+      cluster types of BareOS, AWS, Azure, EKS. To send logs to splunk do update values.yaml
+      during deploy with [Host](https://docs.fluentbit.io/manual/pipeline/outputs/splunk),
+      [Splunk_Token](https://docs.splunk.com/Documentation/SplunkCloud/8.0.2006/Data/UsetheHTTPEventCollector?ref=hk)
+      of your Splunk cloud.
+    digest: 03cac89db41c01b71109785cfbb3917d84cd71886f446517479f40be0d26ff78
+    home: https://github.com/platform9/helm-charts
+    icon: https://fluentbit.io/assets/img/logo1-default.png
+    keywords:
+    - fluent-bit
+    - splunk
+    name: fluent-bit-splunk
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/fluent-bit-splunk-0.15.14/fluent-bit-splunk-0.15.14.tgz
+    version: 0.15.14
+  ingress-nginx-no-lb:
+  - apiVersion: v2
+    appVersion: 0.46.0
+    created: "2021-06-22T10:59:51.721362941+02:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy.
+    digest: 5de5fe44ed11a6056a9ce95858abeaa61b8da14d96f3bc55694ae6685976174a
+    home: https://github.com/platform9/helm-charts
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    name: ingress-nginx-no-lb
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-no-lb-3.30.0/ingress-nginx-no-lb-3.30.0.tgz
+    version: 3.30.0
+  ingress-nginx-with-lb:
+  - apiVersion: v2
+    appVersion: 0.46.0
+    created: "2021-06-22T10:59:51.895690492+02:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy(External
+      load balancer present)
+    digest: c354cec7326356993a521a9635b0bcc48edc3192dae289ad593e5200bfb4f24a
+    home: https://github.com/platform9/helm-charts
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    name: ingress-nginx-with-lb
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-with-lb-3.30.0/ingress-nginx-with-lb-3.30.0.tgz
+    version: 3.30.0
+generated: "2021-07-22T11:01:50.377147428Z"
