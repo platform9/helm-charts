@@ -12,7 +12,7 @@ spec:
   - name: hook2-container
     image: busybox
     imagePullPolicy: IfNotPresent
-    command: ['sh', '-c', 'echo post-install hook Pod is running - hook-postinstall && sleep 120']
+    command: ['sh', '-c', 'echo post-install hook Pod is running - hook-postinstall && sleep 120; exit 0']
   restartPolicy: Never
   terminationGracePeriodSeconds: 0
   # JIRA TICKET https://platform9.atlassian.net/browse/FT-178
