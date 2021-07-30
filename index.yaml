@@ -3,9 +3,9 @@ entries:
   cert-manager-resources:
   - apiVersion: v1
     appVersion: 0.11.0
-    created: "2021-07-12T15:11:14.694098151+02:00"
+    created: "2021-07-22T11:01:50.827471768Z"
     description: A Helm chart to provision certificates using cert-manager
-    digest: e5e9ee20f520c1469911b0990b9b7002a980e9355cebf04ffe74189462f4ae72
+    digest: c72fc5183743cbb4ef08f12a82a04fa05c70daf19bb0884c43f3f93a0581b8b4
     name: cert-manager-resources
     urls:
     - https://github.com/platform9/helm-charts/releases/download/cert-manager-resources-0.1.0/cert-manager-resources-0.1.0.tgz
@@ -53,6 +53,20 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/fluent-bit-splunk-0.15.14/fluent-bit-splunk-0.15.14.tgz
     version: 0.15.14
+  hostpath-csi-driver:
+  - apiVersion: v2
+    appVersion: 1.4.0
+    created: "2021-07-27T12:01:34.865879883Z"
+    description: Hostpath CSI Driver
+    digest: 308e0e8a175c5db50c7f6c6d81d7bfb11ada65769e252f7c3f500bb931a75bfd
+    home: https://github.com/platform9/helm-charts
+    kubeVersion: '>=1.20.0-0'
+    name: hostpath-csi-driver
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/hostpath-csi-driver-1.4.0/hostpath-csi-driver-1.4.0.tgz
+    version: 1.4.0
   ingress-nginx-no-lb:
   - apiVersion: v2
     appVersion: 0.46.0
@@ -90,4 +104,4 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-with-lb-3.30.0/ingress-nginx-with-lb-3.30.0.tgz
     version: 3.30.0
-generated: "2021-07-12T15:11:14.694104101+02:00"
+generated: "2021-07-22T11:01:50.377147428Z"

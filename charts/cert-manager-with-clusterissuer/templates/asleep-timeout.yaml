@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: post-install
+  labels:
+    app: wait
+  annotations:
+    "helm.sh/hook": "post-install"
+    "helm.sh/hook-delete-policy": hook-succeeded, hook-failed
+spec:
+  containers:
+  - name: hook2-container
+    image: busybox
+    imagePullPolicy: IfNotPresent
+    command: ['sh', '-c', 'echo post-install hook Pod is running - hook-postinstall && sleep 120']
+  restartPolicy: Never
+  terminationGracePeriodSeconds: 0
+  # JIRA TICKET https://platform9.atlassian.net/browse/FT-178
+  # initContainers:
+  #   - name: init-myservice
+  #     image: busybox:latest
+  #     # command: ['sh', '-c', 'until nslookup cert-manager-webhook.default.svc; do echo waiting for webhook; sleep 5; done;']
+  #     # command: ['sh', '-c', 'while [ $(curl -ksw "%{https_code}" "https://cert-manager-webhook.default.svc:443/mutate?timeout=10s" -o /dev/null) -ne 200 ]; do sleep 5; echo "health check failed . Waiting for the service..."; done']
+  #     # command: ['sh', '-c', 'while [ $(ping -c 1 cert-manager-webhook &> /dev/null && echo success || echo fail) -ne fail ]; do sleep 20; echo "health check failed . Waiting for the service..."; done']
