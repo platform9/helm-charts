@@ -3,6 +3,15 @@ entries:
   cert-manager-resources:
   - apiVersion: v1
     appVersion: 0.11.0
+    created: "2021-07-30T15:27:56.625465234+02:00"
+    description: A Helm chart to provision certificates using cert-manager
+    digest: 8f64cbeeca1c8c0a902e2fd5c3358cbc59b8f2cbe97fad59023eaf0081308419
+    name: cert-manager-resources
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/cert-manager-resources-0.1.1/cert-manager-resources-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.11.0
     created: "2021-07-22T11:01:50.827471768Z"
     description: A Helm chart to provision certificates using cert-manager
     digest: c72fc5183743cbb4ef08f12a82a04fa05c70daf19bb0884c43f3f93a0581b8b4
@@ -104,4 +113,4 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-with-lb-3.30.0/ingress-nginx-with-lb-3.30.0.tgz
     version: 3.30.0
-generated: "2021-07-22T11:01:50.377147428Z"
+generated: "2021-07-30T15:27:56.625485641+02:00"
