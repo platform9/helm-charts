@@ -340,7 +340,6 @@ fileConfigs:
         host "<YOUR-HOST>"
         scheme https
         port 9243
-        path "logs"
         user elastic
         password <YOUR-PASSWORD>
         logstash_format true
