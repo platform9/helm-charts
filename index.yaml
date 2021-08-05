@@ -62,6 +62,21 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/fluent-bit-splunk-0.15.14/fluent-bit-splunk-0.15.14.tgz
     version: 0.15.14
+  fluentd-elasticsearch:
+  - apiVersion: v2
+    appVersion: v1.12.0
+    created: "2021-08-05T13:30:19.881496277+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3c59fb60b63e596819f22013893085a3b7fccf169ccba89d50802c162181e4d6
+    home: https://www.fluentd.org/
+    icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo_2x.png
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/fluent/fluentd/
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/fluentd-elasticsearch-0.2.6/fluentd-elasticsearch-0.2.6.tgz
+    version: 0.2.6
   hostpath-csi-driver:
   - apiVersion: v2
     appVersion: 1.4.0
@@ -113,4 +128,4 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/ingress-nginx-with-lb-3.30.0/ingress-nginx-with-lb-3.30.0.tgz
     version: 3.30.0
-generated: "2021-07-30T15:27:56.625485641+02:00"
+generated: "2021-08-05T13:30:19.881505773+02:00"
