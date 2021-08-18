@@ -69,7 +69,7 @@ entries:
     description: A Helm chart for Kubernetes
     digest: 3c59fb60b63e596819f22013893085a3b7fccf169ccba89d50802c162181e4d6
     home: https://www.fluentd.org/
-    icon: https://www.fluentd.org/assets/img/miscellany/fluentd-logo_2x.png
+    icon: https://coralogix.com/wp-content/uploads/2020/04/fluentd-guide-700x430.png
     name: fluentd-elasticsearch
     sources:
     - https://github.com/fluent/fluentd/
