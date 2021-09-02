@@ -66,11 +66,13 @@ entries:
   - apiVersion: v2
     appVersion: v1.12.0
     created: "2021-08-05T13:30:19.881496277+02:00"
-    description: A Helm chart for Kubernetes
+    description: A Helm chart for Kubernetes. Certified on BareOS ,AWS ,Azure ,AKS ,GKS
     digest: 3c59fb60b63e596819f22013893085a3b7fccf169ccba89d50802c162181e4d6
     home: https://www.fluentd.org/
     icon: https://coralogix.com/wp-content/uploads/2020/04/fluentd-guide-700x430.png
     name: fluentd-elasticsearch
+    keywords:
+    - Certified certified-on-all Non-Production-Only
     sources:
     - https://github.com/fluent/fluentd/
     - https://github.com/fluent/fluentd-kubernetes-daemonset
@@ -81,11 +83,13 @@ entries:
   - apiVersion: v2
     appVersion: 1.4.0
     created: "2021-07-27T12:01:34.865879883Z"
-    description: Hostpath CSI Driver
+    description: Hostpath CSI Driver. Certified on BareOS, AWS, Azure, AKS, GKS
     digest: 308e0e8a175c5db50c7f6c6d81d7bfb11ada65769e252f7c3f500bb931a75bfd
     home: https://github.com/platform9/helm-charts
     kubeVersion: '>=1.20.0-0'
     name: hostpath-csi-driver
+    keywords:
+    - Certified certified-on-all Non-Production-Only
     sources:
     - https://github.com/platform9/helm-charts
     urls:
@@ -113,14 +117,14 @@ entries:
   - apiVersion: v2
     appVersion: 0.46.0
     created: "2021-06-22T10:59:51.895690492+02:00"
-    description: Ingress controller for Kubernetes using NGINX as a reverse proxy(External
-      load balancer present)
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy(External load balancer present). Certified on BareOS without MetalLB, AWS, Azure, AKS, GKS
     digest: c354cec7326356993a521a9635b0bcc48edc3192dae289ad593e5200bfb4f24a
     home: https://github.com/platform9/helm-charts
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - ingress
     - nginx
+    - Certified certified-on-BareOS-AWS-Azure-GKS Non-Production-Only
     kubeVersion: '>=1.16.0-0'
     name: ingress-nginx-with-lb
     sources:
