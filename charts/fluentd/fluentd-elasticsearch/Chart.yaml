@@ -1,5 +1,5 @@
 apiVersion: v2
-name: "[Certified PF9] fluentd-elasticsearch for BareOS"
+name: fluentd-elasticsearch
 description: A Helm chart for Kubernetes. Certified on BareOS ,AWS ,Azure ,AKS ,GKS
 keywords:
  - Certified certified-on-all Non-Production-Only
