@@ -79,22 +79,6 @@ entries:
     urls:
     - https://github.com/platform9/helm-charts/releases/download/fluentd-elasticsearch-0.2.6/fluentd-elasticsearch-0.2.6.tgz
     version: 0.2.6
-  hostpath-csi-driver:
-  - apiVersion: v2
-    appVersion: 1.4.0
-    created: "2021-07-27T12:01:34.865879883Z"
-    description: Hostpath CSI Driver. Certified on BareOS, AWS, Azure, AKS, GKS
-    digest: 308e0e8a175c5db50c7f6c6d81d7bfb11ada65769e252f7c3f500bb931a75bfd
-    home: https://github.com/platform9/helm-charts
-    kubeVersion: '>=1.20.0-0'
-    name: hostpath-csi-driver
-    keywords:
-    - Certified certified-on-all Non-Production-Only
-    sources:
-    - https://github.com/platform9/helm-charts
-    urls:
-    - https://github.com/platform9/helm-charts/releases/download/hostpath-csi-driver-1.4.0/hostpath-csi-driver-1.4.0.tgz
-    version: 1.4.0
   ingress-nginx-no-lb:
   - apiVersion: v2
     appVersion: 0.46.0
